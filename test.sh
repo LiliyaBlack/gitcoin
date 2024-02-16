@@ -11,7 +11,7 @@ git add file.txt
 git commit -m "Initial commit"
 
 # Генерация случайных изменений файла и коммитов (Цельный блок команд)
-for ((i=1; i<=300; i++))
+for ((i=1; i<=320; i++))
 do
   # Рандомное изменение файла
   echo "Random change $i" >> file.txt
